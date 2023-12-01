@@ -1,0 +1,31 @@
+body{
+    background-color: #efefff;
+    display: grid;
+    grid-template-columns: 1fr;
+    width:100dvw
+}
+#cat{
+ border-radius: 70%;
+ border :2px solid rgb(220, 121, 121);
+ width: 300px;
+ height:300px;
+ margin:2rem;
+}
+p{
+    padding: 2rem;
+    margin:2px;
+}
+h1, h2{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+a {
+    font-size: small;
+}
+ol, ul{
+    color: #300707e1;
+}
+#cats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
